@@ -19,7 +19,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          token: ${{ secrets.YOUR_PAT_SECRET_NAME }}
+          token: ${{ secrets.PAT }}
           
       - name: Set up Python
         uses: actions/setup-python@v2
