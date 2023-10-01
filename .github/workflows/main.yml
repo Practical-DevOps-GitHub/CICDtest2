@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Set Git user and email
         run: |
-          git config --global user.email "omparkhomchuk@gmail.com "
+          git config --global user.email "omparkhomchuk@gmail.com"
           git config --global user.name "omparkhomchuk"
 
       - name: Checkout code
