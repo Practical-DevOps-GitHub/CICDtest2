@@ -28,7 +28,7 @@ jobs:
         run: |
           python -m unittest discover -s tests -p '*_test.py'
 
-      - name: Run linters (example: flake8)
+      - name: Run linters (if applicable)
         run: |
           pip install flake8
           flake8 .
