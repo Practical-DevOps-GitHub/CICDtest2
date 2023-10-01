@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # Manual triggering
+  workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ubuntu-latest # You can select a different OS here if needed
+    runs-on: ubuntu-latest 
     
     steps:
       - name: Checkout code
