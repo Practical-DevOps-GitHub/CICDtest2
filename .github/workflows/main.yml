@@ -35,13 +35,6 @@ jobs:
         run: |
           python -m unittest discover -s tests -p '*_test.py'
 
-      - name: Run database migrations (if applicable)
-        run: |
-          # Add commands to run database migrations here, if applicable
-          # Example: python manage.py migrate
 
-      - name: Deploy to server (if applicable)
-        run: |
-          # Add commands to deploy your application to a server, if applicable
-          # Example: scp -r . username@server_ip:/path/to/app
+
 
