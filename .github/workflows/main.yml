@@ -45,8 +45,3 @@ jobs:
           # Add commands to deploy your application to a server, if applicable
           # Example: scp -r . username@server_ip:/path/to/app
 
-      - name: Update code in repository
-        run: |
-          git add .
-          git commit -m "CI: Update code"
-          git push
